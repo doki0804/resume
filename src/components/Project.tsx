@@ -1,7 +1,4 @@
 import React from "react";
-import ilhajob from '../assets/images/일하잡.png';
-import market from '../assets/images/마켓백엔드 erd.png';
-import auth from '../assets/images/springboot-jwt.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -10,19 +7,12 @@ function Project() {
         <h1>Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://github.com/doki0804/final-project-team1-ilhajob" target="_blank" rel="noreferrer"><img src={ilhajob} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/doki0804/final-project-team1-ilhajob" target="_blank" rel="noreferrer"><h2>일하잡(구인구직 서비스)</h2></a>
-                <p>구인구직 사이트 프로젝트로서 개인회원, 기업회원을 구분하여 각 회원에 맞는 기능을 제공하는 프로젝트</p>
+                <h2>OMS 및 Fulfillment System 개발/QA</h2>
+                <p>JAVA 백앤드 개발자로 참여하여 JPA, QueryDSL ORM, JWT 인증 RESTful API 설계를 담당. 이후 QA 관점에서 시스템의 안정성과 품질을 보장하는 테스트를 수행, 개발 경험을 통해 효과적인 테스트 케이스 설계 및 버그 사전 발견에 기여</p>
             </div>
             <div className="project">
-                <a href="https://github.com/doki0804/market-system" target="_blank" rel="noreferrer"><img src={market} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/doki0804/market-system" target="_blank" rel="noreferrer"><h2>마켓 백엔드 시스템</h2></a>
-                <p>장바구니 관리, 주문 처리, 결제 관리와 같은 기본적인 전자상거래 기능을 처리하기 위해 설계된 백엔드 서비스</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/doki0804/auth-service" target="_blank" rel="noreferrer"><img src={auth} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/doki0804/auth-service" target="_blank" rel="noreferrer"><h2>JWT 인증인가 서비스</h2></a>
-                <p>회원가입, 로그인, OAuth2등을 이용한 인증 인가 기능을 처리하기 위해 설계된 백엔드 서비스</p>
+                <h2>배달의민족 결제/정산 QA</h2>
+                <p>배달의민족 서비스의 결제 및 정산 모듈에 대한 협력사 QA 테스트를 수행, 결제 프로세스의 정확성과 보안성을 확인</p>
             </div>
         </div>
     </div>

@@ -1,40 +1,44 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython, faJava, faGithub, faGit } from '@fortawesome/free-brands-svg-icons';
+import { faSearch, faCheckCircle, faCogs } from '@fortawesome/free-solid-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "Spring MVC",
-    "Spring Boot",
-    "Spring Security",
-    "Spring Data JPA",
-    "QueryDsl",
-    "jsp",
-    "Javascript",
-    "Jquery",
-    "SQL",
-    "MariaDB",
-    "Oracle",
-    "Postman"
+    "Selenium",
+    "JUnit",
+    "TestNG",
+    "Postman",
+    "JMeter",
+    "Appium",
+    "Cucumber",
+    "Rest Assured",
+    "SoapUI",
+    "Charles Proxy",
+    "Swagger",
+    "RestDoc"
 ];
 
 const labelsSecond = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS"
+    "Manual Testing",
+    "Automated Testing",
+    "API Testing",
+    "Performance Testing",
+    "Security Testing",
+    "Regression Testing",
+    "Exploratory Testing"
 ];
 
 const labelsThird = [
+    "JIRA",
+    "Confluence",
     "Git",
-    "GitHub Actions",
+    "Jenkins",
     "Docker",
-    "kubernetes",
-    "Jenkins"
+    "Kubernetes",
+    "Agile/Scrum",
+    "SQL"
 ];
 
 function Expertise() {
@@ -44,12 +48,11 @@ function Expertise() {
             <h1>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faJava} size="3x"/>
-                    <h3>Java</h3>
-                    <p>Spring Boot, Spring MVC, Spring Security 등 다양한 프레임워크를 활용해 
-                       확장 가능하고 보안성이 뛰어난 백엔드 시스템을 구축할 수 있습니다.
-                       멀티스레딩, JPA를 이용한 DB 연동, 그리고 설계 패턴 적용에 능숙하며,
-                       비즈니스 요구사항을 안정적으로 충족하는 솔루션을 구현할 수 있습니다.</p>
+                    <FontAwesomeIcon icon={faSearch} size="3x"/>
+                    <h3>Automated Testing Tools</h3>
+                    <p>다양한 자동화 테스트 도구를 활용하여 효율적이고 신뢰할 수 있는 테스트 스크립트를 작성할 수 있습니다.
+                       Selenium, JUnit, TestNG 등을 사용하여 웹 애플리케이션과 API의 자동화 테스트를 수행하며,
+                       CI/CD 파이프라인에 통합하여 지속적인 품질 보장을 지원합니다. 개발자로서의 JAVA 백앤드 경험을 바탕으로 TDD 방식의 개발과 API 테스트 및 ORM 관련 테스트를 효과적으로 수행할 수 있습니다.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -59,10 +62,11 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p> React를 활용하여 다양한 웹 애플리케이션을 처음부터 구축해본 경험이 있습니다.
-                        SDLC 전 과정을 이해하고 있으며, 백엔드뿐만 아니라 프론트엔드 개발에도 능력을 발휘할 수 있습니다.
+                    <FontAwesomeIcon icon={faCheckCircle} size="3x"/>
+                    <h3>Testing Methodologies</h3>
+                    <p> 수동 테스트부터 자동화 테스트까지 다양한 테스트 방법론을 적용하여 소프트웨어의 품질을 보장합니다.
+                        기능 테스트, 성능 테스트, 보안 테스트 등 다양한 측면에서 철저한 검증을 수행하며,
+                        회귀 테스트와 탐색적 테스트를 통해 잠재적 문제를 사전에 발견합니다.
                         <br/>
                         <br/>
                     </p>
@@ -75,10 +79,11 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps</h3>
-                    <p>애플리케이션 구축 후에는 DevOps 환경을 설정하고, CI/CD 파이프라인 및 
-                    자동 배포 프로세스를 구축하여 안정적인 운영과 효율적인 배포를 지원할 수 있습니다.                   
+                    <FontAwesomeIcon icon={faCogs} size="3x"/>
+                    <h3>QA Tools and Processes</h3>
+                    <p>프로젝트 관리 도구와 협업 툴을 활용하여 효율적인 QA 프로세스를 구축합니다.
+                    JIRA, Confluence를 사용하여 이슈 추적과 문서화를 수행하며, Agile/Scrum 방법론을 적용하여
+                    팀과의 협업을 강화하고, 지속적인 개선을 통해 품질 향상을 도모합니다.                   
                     <br/>
                     <br/>
                     <br/>
