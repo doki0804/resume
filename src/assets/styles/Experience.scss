@@ -1,0 +1,70 @@
+.experience-section {
+  min-height: 280px;
+  position: relative;
+}
+
+.experience-section h1 {
+  margin: 0 0 12px;
+  font-size: 1.25rem;
+  color: #000000;
+}
+
+.experience-item {
+  border-top: 1px solid #CCCCCC;
+  padding-top: 18px;
+  position: relative;
+}
+
+.experience-item:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.experience-item::before {
+  content: '';
+  position: absolute;
+  left: -32px;
+  top: 8px;
+  width: 8px;
+  height: 8px;
+  background: #000000;
+  border-radius: 50%;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.experience-header h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  color: #000000;
+}
+
+.experience-header span {
+  color: #000000;
+  font-size: 0.92rem;
+  text-align: right;
+  flex: 1;
+}
+
+.experience-item p {
+  margin: 0;
+  color: #000000;
+  line-height: 1.8;
+}
+
+.experience-item ul {
+  margin: 12px 0 0 20px;
+  padding: 0;
+  color: #000000;
+  line-height: 1.8;
+}
+
+.experience-item li {
+  margin-bottom: 8px;
+}

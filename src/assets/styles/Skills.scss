@@ -1,0 +1,59 @@
+.skills-section {
+  min-height: 320px;
+  position: relative;
+}
+
+.skills-section h1 {
+  margin: 0 0 12px;
+  font-size: 1.25rem;
+  color: #000000;
+}
+
+.skills-container {
+  display: grid;
+  gap: 18px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.skill::before {
+  content: '';
+  position: absolute;
+  left: -32px;
+  top: 8px;
+  width: 8px;
+  height: 8px;
+  background: #000000;
+  border-radius: 50%;
+}
+
+.skill h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: #000000;
+}
+
+.skill p {
+  margin: 0;
+  color: #000000;
+  line-height: 1.6;
+}
+
+.flex-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: #eef2ff;
+  color: #000000 !important;
+  font-size: 0.85rem !important;
+}

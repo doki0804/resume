@@ -1,44 +1,38 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import {
-  Main,
+  Contact,
   AboutMe,
-  Timeline,
-  Expertise,
-  Project,
-  Navigation,
+  Experience,
+  Skills,
+  Languages,
+  Education,
   Footer,
 } from "./components";
 import FadeIn from './components/FadeIn';
 import './index.scss';
 
 function App() {
-    const [mode, setMode] = useState<string>('dark');
-
-    const handleModeChange = () => {
-        if (mode === 'dark') {
-            setMode('light');
-        } else {
-            setMode('dark');
-        }
-    }
-
-    useEffect(() => {
-        window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
-      }, []);
-
-    return (
-    <div className={`main-container ${mode === 'dark' ? 'dark-mode' : 'light-mode'}`}>
-        <Navigation parentToChild={{mode}} modeChange={handleModeChange}/>
-        <FadeIn transitionDuration={700}>
-            <Main/>
-            <AboutMe/>
-            <Expertise/>
-            <Timeline/>
-            <Project/>
-        </FadeIn>
-        <Footer />
+  return (
+    <div className="cv-wrapper">
+      <FadeIn transitionDuration={700}>
+        <div className="cv-card">
+          <div className="cv-columns">
+            <div className="left-panel">
+              <Contact />
+              <Skills />
+              <Languages />
+              <Education />
+            </div>
+            <div className="right-panel">
+              <AboutMe />
+              <Experience />
+            </div>
+          </div>
+        </div>
+      </FadeIn>
+      <Footer />
     </div>
-    );
+  );
 }
 
 export default App;
