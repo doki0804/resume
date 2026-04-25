@@ -46,16 +46,6 @@ a:hover {
   position: relative;
 }
 
-.cv-columns::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  background: #CCCCCC;
-  top: 50%;
-  left: 0;
-}
-
 .left-panel,
 .right-panel {
   display: flex;
