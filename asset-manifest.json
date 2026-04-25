@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ec21adb7.css",
-    "main.js": "/portfolio/static/js/main.badefca7.js",
+    "main.css": "/portfolio/static/css/main.5b67d0fd.css",
+    "main.js": "/portfolio/static/js/main.191eb507.js",
     "static/js/453.ace21015.chunk.js": "/portfolio/static/js/453.ace21015.chunk.js",
     "static/media/남산 사진.jpg": "/portfolio/static/media/남산 사진.574e098d4d89c307b82d.jpg",
     "index.html": "/portfolio/index.html",
-    "main.ec21adb7.css.map": "/portfolio/static/css/main.ec21adb7.css.map",
-    "main.badefca7.js.map": "/portfolio/static/js/main.badefca7.js.map",
+    "main.5b67d0fd.css.map": "/portfolio/static/css/main.5b67d0fd.css.map",
+    "main.191eb507.js.map": "/portfolio/static/js/main.191eb507.js.map",
     "453.ace21015.chunk.js.map": "/portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec21adb7.css",
-    "static/js/main.badefca7.js"
+    "static/css/main.5b67d0fd.css",
+    "static/js/main.191eb507.js"
   ]
 }
