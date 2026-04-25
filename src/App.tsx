@@ -16,9 +16,9 @@ function App() {
     <div className="cv-wrapper">
       <FadeIn transitionDuration={700}>
         <div className="cv-card">
+          <Contact />
           <div className="cv-columns">
             <div className="left-panel">
-              <Contact />
               <Skills />
               <Languages />
               <Education />
