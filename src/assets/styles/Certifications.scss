@@ -1,28 +1,30 @@
-.experience-section {
-  min-height: 280px;
+.certifications-section {
+  min-height: 200px;
   background: #ffffff;
   border: 1px solid #cccccc;
   border-radius: 14px;
   padding: 28px;
 }
 
-.experience-section h1 {
+.certifications-section h1 {
   margin: 0 0 12px;
   font-size: 1.25rem;
   color: #000000;
 }
 
-.experience-item {
+.certification-item {
   border-top: 1px solid #cccccc;
   padding-top: 18px;
+  margin-top: 18px;
 }
 
-.experience-item:first-of-type {
+.certification-item:first-of-type {
   border-top: none;
   padding-top: 0;
+  margin-top: 0;
 }
 
-.experience-header {
+.item-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -30,7 +32,7 @@
   margin-bottom: 12px;
 }
 
-.experience-header h3 {
+.item-header h3 {
   margin: 0;
   font-size: 1.05rem;
   color: #000000;
@@ -39,7 +41,7 @@
   gap: 8px;
 }
 
-.experience-header h3::before {
+.item-header h3::before {
   content: '';
   display: inline-block;
   width: 8px;
@@ -49,26 +51,15 @@
   flex-shrink: 0;
 }
 
-.experience-header span {
-  color: #000000;
-  font-size: 0.92rem;
-  text-align: right;
-  flex-shrink: 0;
-}
-
-.experience-item p {
+.certification-item p {
   margin: 0;
   color: #000000;
   line-height: 1.8;
 }
 
-.experience-item ul {
-  margin: 12px 0 0 20px;
-  padding: 0;
+.item-header span {
   color: #000000;
-  line-height: 1.8;
-}
-
-.experience-item li {
-  margin-bottom: 8px;
+  font-size: 0.92rem;
+  text-align: right;
+  flex-shrink: 0;
 }

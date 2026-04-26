@@ -3,29 +3,34 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Skills.scss';
 
 const labelsFirst = [
-    "JUnit",
-    "Postman",
-    "Rest Assured",
-    "Charles Proxy",
-    "Swagger",
-    "RestDoc"
+    "Java",
+    "JavaScript",
+    "Spring Boot",
+    "JPA",
+    "QueryDSL",
+    "JWT",
+    "MySQL",
+    "MongoDB",
+    "Oracle",
+    "Redis",
+    "SQL"
 ];
 
 const labelsSecond = [
-    "Manual Testing",
-    "Automated Testing",
-    "API Testing",
-    "Performance Testing",
-    "Security Testing",
-    "Regression Testing",
-    "Exploratory Testing"
+    "Postman",
+    "JUnit",
+    "Charles Proxy",
+    "Swagger",
+    "RestDoc",
+    "Rest Assured"
 ];
 
 const labelsThird = [
     "JIRA",
     "Confluence",
     "Git",
-    "SQL"
+    "TDD/BDD",
+    "Agile"
 ];
 
 function Skills() {
@@ -34,7 +39,7 @@ function Skills() {
         <div className="section-heading"><h1>Skills</h1></div>
         <div className="skills-container">
             <div className="skill">
-                <h3>Automation & API</h3>
+                <h3>Development & Database</h3>
                 <div className="flex-chips">
                     {labelsFirst.map((label, index) => (
                         <Chip key={index} className='chip' label={label} />
@@ -43,7 +48,7 @@ function Skills() {
             </div>
 
             <div className="skill">
-                <h3>Test Methodology</h3>
+                <h3>Testing</h3>
                 <div className="flex-chips">
                     {labelsSecond.map((label, index) => (
                         <Chip key={index} className='chip' label={label} />

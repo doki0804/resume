@@ -11,7 +11,7 @@ function Contact() {
       </div>
       <div className="contact-info">
         <h1>이원호</h1>
-        <p className="profile-title">QA Engineer / Backend QA Specialist</p>
+        <p className="profile-title">QA Engineer</p>
         <div className="contact-list">
           <div><GitHubIcon /> <a href="https://github.com/doki0804" target="_blank" rel="noreferrer">github.com/doki0804</a></div>
           <div>Email: <a href="mailto:doki0804@naver.com">doki0804@naver.com</a></div>
