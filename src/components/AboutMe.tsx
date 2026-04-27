@@ -3,8 +3,8 @@ import '../assets/styles/AboutMe.scss';
 
 function AboutMe() {
   return (
-    <section className="section about-me">
-      <h2>About Me</h2>
+    <section className="section aboutMe" id="aboutMe">
+      <div className="section-heading"><h1>ABOUT ME</h1></div>
 
       <div className="about-card">
         <p className="intro-title">

@@ -7,7 +7,6 @@
 }
 
 .skills-section h1 {
-  margin: 0 0 12px;
   font-size: 1.25rem;
   color: #000000;
 }
@@ -20,6 +19,8 @@
 .skill {
   display: flex;
   flex-direction: column;
+  border-top: 1px solid #e5e7eb;
+  padding : 10px 0 0 0;
   gap: 12px;
 }
 

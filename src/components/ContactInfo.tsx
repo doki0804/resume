@@ -12,11 +12,12 @@ function ContactInfo() {
 
     try {
       const canvas = await html2canvas(element, {
-        scale: 2,
+        scale: 1.3,
         useCORS: true,
+        backgroundColor: "#ffffff",
       });
 
-      const imgData = canvas.toDataURL('image/png');
+      const imgData = canvas.toDataURL('image/jpeg', 0.85);
       const pdf = new jsPDF('p', 'mm', 'a4');
       const pdfWidth = pdf.internal.pageSize.getWidth();
       const pdfHeight = pdf.internal.pageSize.getHeight();
@@ -27,17 +28,17 @@ function ContactInfo() {
       let heightLeft = imgHeight;
       let position = 0;
 
-      pdf.addImage(imgData, 'PNG', 0, position, pdfWidth, imgHeight);
+      pdf.addImage(imgData, 'JPEG', 0, position, pdfWidth, imgHeight);
       heightLeft -= pdfHeight;
 
       while (heightLeft >= 0) {
         position = heightLeft - imgHeight;
         pdf.addPage();
-        pdf.addImage(imgData, 'PNG', 0, position, pdfWidth, imgHeight);
+        pdf.addImage(imgData, 'JPEG', 0, position, pdfWidth, imgHeight);
         heightLeft -= pdfHeight;
       }
 
-      pdf.save('경력기술서(이원호).pdf');
+      pdf.save('이원호_경력기술서.pdf');
     } catch (error) {
       console.error('PDF 다운로드 중 오류 발생:', error);
     }
@@ -53,7 +54,6 @@ function ContactInfo() {
       <div className="contact-list">
         <div><GitHubIcon /> <a href="https://github.com/doki0804" target="_blank" rel="noreferrer">github.com/doki0804</a></div>
         <div>Email: <a href="mailto:doki0804@naver.com">doki0804@naver.com</a></div>
-        <div>Location: Seoul, South Korea</div>
       </div>
     </div>
   );

@@ -6,12 +6,9 @@
   position: relative;
 }
 
-.section h2 {
-  margin: 0 0 20px;
-  font-size: 1.35rem;
-  font-weight: 800;
-  color: #1f2933;
-  letter-spacing: -0.02em;
+.about-me-section h1 {
+  font-size: 1.25rem;
+  color: #000000;
 }
 
 .about-me {
@@ -22,12 +19,14 @@
 .about-card {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 10px;
+  border-top: 1px solid #e5e7eb;
+  padding-top : 10px;   
 }
 
 .intro-title {
   margin: 0;
-  font-size: 1.14rem;
+  font-size: 1.1rem;
   font-weight: 700;
   line-height: 1.65;
   color: #1f2933;
@@ -37,7 +36,7 @@
 .about-detail {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 5px;
 }
 
 .about-detail p {

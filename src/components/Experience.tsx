@@ -4,9 +4,9 @@ import '../assets/styles/Experience.scss'
 function Timeline() {
   return (
     <section className="section experience">
-      <h2>경력사항</h2>
+      <div className="section-heading"><h1>경력사항</h1></div>
 
-      <div className="experience-item">
+      <div className="experience-item1">
         <div className="experience-title-row">
           <div>
             <h3>티벨</h3>
@@ -14,7 +14,6 @@ function Timeline() {
               우아한형제들 배달의민족 결제/정산 QA
             </p>
           </div>
-
           <p className="period">2025.07 - Present</p>
         </div>
 
@@ -35,13 +34,12 @@ function Timeline() {
         </ul>
       </div>
 
-      <div className="experience-item">
+      <div className="experience-item2">
         <div className="experience-title-row">
           <div>
             <h3>노리앤드</h3>
             <p className="experience-role">Java 백엔드 개발자</p>
           </div>
-
           <p className="period">2023.06 - 2024.08</p>
         </div>
 
