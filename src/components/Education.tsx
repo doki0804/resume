@@ -17,7 +17,7 @@ function Education() {
                 <h3>ITWILL</h3>
                 <span>2022.11 - 2023.04</span>
             </div>
-            <p>Java 백앤드 개발자 양성 과정 수료</p>
+            <p>Java 백엔드 개발자 양성 과정 수료</p>
         </div>
         <div className="education-item">
             <div className="item-header">
