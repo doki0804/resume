@@ -2,25 +2,46 @@ import React from "react";
 import '../assets/styles/AboutMe.scss';
 
 function AboutMe() {
-    return(
-    <section className="summary-section" id="aboutMe">
-        <div className="section-heading"><h1>About Me</h1></div>
+  return (
+    <section className="about-me">
+      <h2>About Me</h2>
+
+      <div className="about-intro">
+        <p className="intro-title">
+          백엔드 개발 경험을 바탕으로 서비스 구조와 데이터 흐름을 함께 보는 QA 엔지니어입니다.
+        </p>
+
+        <p className="intro-description">
+          기능이 정상 동작하는지 확인하는 데서 그치지 않고, 데이터가 어떤 조건에서 생성되고 변경되는지,
+          그 흐름 안에서 문제가 생길 수 있는 지점을 먼저 찾으려고 합니다.
+        </p>
+      </div>
+
+      <div className="core-strength">
+        <h3>Core Strength</h3>
+
+        <ul>
+          <li>백엔드 개발 경험 기반 API, DB, 비즈니스 로직 관점의 테스트 설계</li>
+          <li>주문/결제/정산처럼 데이터 정합성이 중요한 도메인에 대한 이해</li>
+          <li>요구사항을 테스트 케이스로 구체화하고 누락 시나리오를 보완하는 업무 방식</li>
+          <li>이슈 발생 시 데이터 흐름을 따라가며 원인과 재현 조건을 정리하는 분석 역량</li>
+        </ul>
+      </div>
+
+      <div className="about-detail">
         <p>
-            백엔드 개발을 하다가 현재는 결제/정산 도메인의 QA 엔지니어로 일하고 있는 이원호입니다.
-            개발 경험 덕분에 기능이 화면에서 어떻게 보이는지만 보기보다, 시스템 내부에서 데이터가 어떤 흐름으로 생성되고 변경되는지를 먼저 확인하려고 합니다.
+          이전에는 Java 백엔드 개발자로 OMS와 주문 데이터 가공 시스템 개발에 참여했습니다.
+          Spring Boot, JPA, QueryDSL을 활용해 API와 데이터 처리 로직을 구현하며,
+          시스템 내부 구조와 데이터 흐름을 이해하는 경험을 쌓았습니다.
         </p>
 
         <p>
-            현재는 배달의민족 결제/정산 파트에서 주문, 결제, 익일 배치, 일 단위·월 단위 정산, SAP 검증까지 이어지는 흐름을 기준으로 테스트를 수행하고 있습니다.
-            금액, 수수료, 정산 기준처럼 실제 정산 결과에 영향을 주는 부분을 우선적으로 확인하고, 원천 데이터와 배치 이후 생성된 데이터를 비교하며 정합성을 검증합니다.
+          현재는 이 개발 경험을 QA 업무에 연결해, 화면 결과뿐 아니라 API 응답, DB 데이터,
+          배치 이후 결과까지 함께 확인하며 서비스 품질을 검증하고 있습니다.
         </p>
-
-        <p>
-            문제가 발생했을 때는 DB 데이터를 직접 확인하며 흐름을 따라가고, 재현 조건을 정리해 같은 유형의 이슈가 반복되지 않도록 테스트 케이스를 보완하는 방식으로 일하고 있습니다.
-            앞으로도 서비스 구조와 데이터 흐름을 이해하는 QA로서, 배포 전 품질 리스크를 줄이는 데 집중하고자 합니다.
-        </p>
+      </div>
     </section>
-    );
+  );
 }
 
 export default AboutMe;
