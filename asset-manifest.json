@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.e4de6756.css",
-    "main.js": "/resume/static/js/main.0ab4daf6.js",
+    "main.css": "/resume/static/css/main.c05244ab.css",
+    "main.js": "/resume/static/js/main.156efbcf.js",
     "static/js/977.312a4f8b.chunk.js": "/resume/static/js/977.312a4f8b.chunk.js",
     "static/js/455.39cb44d2.chunk.js": "/resume/static/js/455.39cb44d2.chunk.js",
     "static/js/453.ace21015.chunk.js": "/resume/static/js/453.ace21015.chunk.js",
     "static/media/남산 사진.jpg": "/resume/static/media/남산 사진.574e098d4d89c307b82d.jpg",
     "index.html": "/resume/index.html",
-    "main.e4de6756.css.map": "/resume/static/css/main.e4de6756.css.map",
-    "main.0ab4daf6.js.map": "/resume/static/js/main.0ab4daf6.js.map",
+    "main.c05244ab.css.map": "/resume/static/css/main.c05244ab.css.map",
+    "main.156efbcf.js.map": "/resume/static/js/main.156efbcf.js.map",
     "977.312a4f8b.chunk.js.map": "/resume/static/js/977.312a4f8b.chunk.js.map",
     "455.39cb44d2.chunk.js.map": "/resume/static/js/455.39cb44d2.chunk.js.map",
     "453.ace21015.chunk.js.map": "/resume/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4de6756.css",
-    "static/js/main.0ab4daf6.js"
+    "static/css/main.c05244ab.css",
+    "static/js/main.156efbcf.js"
   ]
 }
