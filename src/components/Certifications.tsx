@@ -10,7 +10,7 @@ function Certifications() {
                 <h3>ISTQB-FL</h3>
                 <span>2025.07</span>
             </div>
-            <p>자격증 취득</p>
+            <p>ISTQB Foundation Level 취득</p>
         </div>
     </section>
     );

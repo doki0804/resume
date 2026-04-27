@@ -1,58 +1,37 @@
+.section {
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 14px;
+  padding: 28px;
+  position: relative;
+}
+
+.section h2 {
+  margin: 0 0 20px;
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #1f2933;
+  letter-spacing: -0.02em;
+}
+
 .about-me {
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 
-.about-me h2 {
-  margin-bottom: 4px;
-}
-
-.about-intro {
+.about-card {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 16px;
 }
 
 .intro-title {
-  font-size: 1.15rem;
-  font-weight: 700;
-  line-height: 1.6;
-  color: #222;
-}
-
-.intro-description {
-  font-size: 0.98rem;
-  line-height: 1.75;
-  color: #444;
-}
-
-.core-strength {
-  padding: 18px 20px;
-  border-radius: 14px;
-  background-color: #f8f9fa;
-  border: 1px solid #e9ecef;
-}
-
-.core-strength h3 {
-  margin-bottom: 12px;
-  font-size: 1rem;
-  font-weight: 700;
-  color: #222;
-}
-
-.core-strength ul {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding-left: 18px;
   margin: 0;
-}
-
-.core-strength li {
-  font-size: 0.95rem;
-  line-height: 1.6;
-  color: #333;
+  font-size: 1.14rem;
+  font-weight: 700;
+  line-height: 1.65;
+  color: #1f2933;
+  letter-spacing: -0.02em;
 }
 
 .about-detail {
@@ -62,8 +41,9 @@
 }
 
 .about-detail p {
+  margin: 0;
   font-size: 0.96rem;
   line-height: 1.8;
-  color: #444;
-  margin: 0;
+  color: #4b5563;
+  letter-spacing: -0.01em;
 }
